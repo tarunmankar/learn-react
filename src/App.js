@@ -6,7 +6,6 @@ function App() {
   return (
     <>
       <ChangeInput/>
-      <p>-------------------------------------------------------</p>
       <ChangeText/>
     </>
   );
