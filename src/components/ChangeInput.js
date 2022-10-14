@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const ChangeInput = () => {
-    const [name, setName] = useState("tarun")
+    const [name, setName] = useState("")
     const handleValue = (e) =>{setName(e.target.value)}
 
     return(
