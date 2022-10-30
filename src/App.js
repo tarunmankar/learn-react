@@ -1,6 +1,7 @@
 import ChangeBackground from "./components/ChangeBackground";
 import ChangeInput from "./components/ChangeInput";
 import ChangeText from "./components/ChangeText";
+import IncreDecreMent from "./components/IncreDecreMent";
 import ShowData from "./components/ShowData";
 
 function App() {
@@ -10,13 +11,14 @@ function App() {
 
   return (
     <>
+      <IncreDecreMent/><hr/>
       <ChangeInput/><hr/>
       <ChangeText/><hr/>
+      <ChangeBackground/><hr/>
       <ShowData objectData ={objectData} 
                 arrayData={arrayData} 
                 variableData={variableData} 
       /><hr/>
-      <ChangeBackground/>
     </>
   );
 }
