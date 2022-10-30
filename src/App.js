@@ -1,3 +1,4 @@
+import ChangeBackground from "./components/ChangeBackground";
 import ChangeInput from "./components/ChangeInput";
 import ChangeText from "./components/ChangeText";
 import ShowData from "./components/ShowData";
@@ -14,7 +15,8 @@ function App() {
       <ShowData objectData ={objectData} 
                 arrayData={arrayData} 
                 variableData={variableData} 
-      />
+      /><hr/>
+      <ChangeBackground/>
     </>
   );
 }
