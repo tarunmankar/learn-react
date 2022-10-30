@@ -2,6 +2,8 @@ import ChangeBackground from "./components/ChangeBackground";
 import ChangeInput from "./components/ChangeInput";
 import ChangeText from "./components/ChangeText";
 import IncreDecreMent from "./components/IncreDecreMent";
+import PrintArrayList from "./components/PrintArrayList";
+import PrintObjectList from "./components/PrintObjectList";
 import ShowData from "./components/ShowData";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <IncreDecreMent/><hr/>
       <ChangeInput/><hr/>
       <ChangeText/><hr/>
+      <PrintArrayList/><hr/>
+      <PrintObjectList/><hr/>
       <ChangeBackground/><hr/>
       <ShowData objectData ={objectData} 
                 arrayData={arrayData} 
