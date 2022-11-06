@@ -11,7 +11,6 @@ const ChangeInput = () => {
 
             {/* <input
                 type="text"
-                onChange={handleValue}
                 onChange={(e) => setName(e.target.value)}
             /> */}
         </>
