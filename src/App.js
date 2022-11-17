@@ -5,6 +5,7 @@ import IncreDecreMent from "./components/IncreDecreMent";
 import PrintArrayList from "./components/PrintArrayList";
 import PrintObjectList from "./components/PrintObjectList";
 import ShowData from "./components/ShowData";
+import ApiCall from "./components/ApiCall";
 
 function App() {
   const objectData = { name : "tarun", school : "lfhs"}
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+      <ApiCall/> 
       <IncreDecreMent/><hr/>
       <ChangeInput/><hr/>
       <ChangeText/><hr/>
